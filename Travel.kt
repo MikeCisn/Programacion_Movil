@@ -2,9 +2,12 @@ abstract class Travel {
 
     abstract val country: String
     abstract val city: String
-    abstract val serviceType = "Viaje"
-    abstract var reserved = false
-    abstract var paidAmount = 0
+    protected val serviceType = "Viaje"
+    protected var reserved = false
+    protected var paidAmount = 0
+
+    abstract fun quotePrice(numDays: Int)
+    protected abstract fun getPrice (numDays: Int): Int
 
     fun reserve(numDays: Int){
         if(reserved){
