@@ -1,5 +1,6 @@
 
-//Aqui esta la main class
+//Cisneros Gonzalez Miguel.
+//AQUI SE ENCUENTRAN LAS CLASES QUE USAMOS.
 import Clases.Goomba
 import Clases.Koopa
 import Clases.Mario
